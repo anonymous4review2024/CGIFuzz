@@ -23,7 +23,7 @@ class Requesturl:
         log.info(f"Fetching {url}")
         if not self.browser:
             log.debug(f"Browser not open try reopen")
-            await self.start_browser()  # 确保浏览器已启动
+            await self.start_browser()  
             self.page = await self.browser.new_page()
 
 
@@ -34,7 +34,7 @@ class Requesturl:
         except Exception as e:
             print(f"Error fetching {url}: {str(e)}")
         # finally:
-        #     await page.close()  # 确保页面被正确关闭
+        #     await page.close()  
 
     async def close_browser(self):
         log.info("Closing browser")
