@@ -1,0 +1,14 @@
+POST /cgi-bin/cstecgi.cgi HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 252
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.112 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/advance/l2tp.html?timestamp=1712566292241
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+{"enable":"1","sip":"10.8.0.2","eip":"10.8.0.51","server":"10.8.0.1","priDns":"8.8.8.8","secDns":"10.20.0.1","mtu":"1450","mru":"1450","ipsecL2tpEnable":"1","ipsecPsk":"testtest","topicurl":"setL2tpServerCfg","token":"eac7a15ba966b90da36f13ce32edbc3c"}

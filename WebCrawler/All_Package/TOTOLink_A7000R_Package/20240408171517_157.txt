@@ -1,0 +1,14 @@
+POST /cgi-bin/cstecgi.cgi HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 326
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.112 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/advance/wifi.html?timestamp=1712565996621
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+{"addEffect":"0","wifiIdx":"0","bw":2,"band":16,"channel":"0","hssid":"0","ssid":"TOTOLINK_X5000R","encryptionWay":"5","encryptionType":"4","key":"password","countryCode":"US","encryption":"0","txRate":"0","rxRate":"0","twt":"0","mumimo":"1","ofdma":"1","topicurl":"setWiFiBasicCfg","token":"eac7a15ba966b90da36f13ce32edbc3c"}

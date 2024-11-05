@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.06610408456204442 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 1264
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Special_Applications.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=update_entry&table_name=application_rules&rowid=0&rule_enable=1&rule_name=abc&trigger_protocol=TCP&firewall_protocol=TCP&trigger_port=1888&firewall_port=1888&request=update_entry&table_name=application_rules&rowid=1&rule_enable=0&rule_name=&trigger_protocol=TCP&firewall_protocol=TCP&trigger_port=0&firewall_port=0&request=update_entry&table_name=application_rules&rowid=2&rule_enable=0&rule_name=&trigger_protocol=TCP&firewall_protocol=TCP&trigger_port=0&firewall_port=0&request=update_entry&table_name=application_rules&rowid=3&rule_enable=0&rule_name=&trigger_protocol=TCP&firewall_protocol=TCP&trigger_port=0&firewall_port=0&request=update_entry&table_name=application_rules&rowid=4&rule_enable=0&rule_name=&trigger_protocol=TCP&firewall_protocol=TCP&trigger_port=0&firewall_port=0&request=update_entry&table_name=application_rules&rowid=5&rule_enable=0&rule_name=&trigger_protocol=TCP&firewall_protocol=TCP&trigger_port=0&firewall_port=0&request=update_entry&table_name=application_rules&rowid=6&rule_enable=0&rule_name=&trigger_protocol=TCP&firewall_protocol=TCP&trigger_port=0&firewall_port=0&request=update_entry&table_name=application_rules&rowid=7&rule_enable=0&rule_name=&trigger_protocol=TCP&firewall_protocol=TCP&trigger_port=0&firewall_port=0

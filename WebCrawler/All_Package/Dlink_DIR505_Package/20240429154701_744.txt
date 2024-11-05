@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.2879208897579626 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 169
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Dynamic_DNS.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=update_entry&table_name=dynamic_dns&rowid=1&ddns_enable=1&ddns_server=dlinkddns.com&ddns_host_name=abc.com&ddns_user_name=abc&ddns_user_pwd=abc&ddns_time_out=576

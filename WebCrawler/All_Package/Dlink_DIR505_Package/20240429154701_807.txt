@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.5327241055723333 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 162
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Schedules.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=insert_entry&table_name=schedules&rowid=0&schedule_name=abc&all_week=0&week_day=Sun&all_day=0&start_hour=0&end_hour=0&time_format=24&start_min=0&end_min=0

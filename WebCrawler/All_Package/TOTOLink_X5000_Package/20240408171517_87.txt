@@ -1,0 +1,14 @@
+POST /cgi-bin/cstecgi.cgi HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 352
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.112 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/basic/wan.html?timestamp=1712565589058
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+{"l2tpMode":"0","l2tpIp":"0.0.0.0","l2tpMask":"0.0.0.0","l2tpGw":"0.0.0.0","l2tpDomainFlag":"0","l2tpServerIp":"119.119.119.119","l2tpUser":"admin","l2tpPass":"admin","l2tpMtu":"1460","proto":"6","dnsMode":"0","ttlWay":"1","lcpEchoEnable":"1","clone":"0","cloneMac":"5C:92:5E:C4:13:91","topicurl":"setWanCfg","token":"eac7a15ba966b90da36f13ce32edbc3c"}

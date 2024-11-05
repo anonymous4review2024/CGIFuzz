@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.9890957045824773 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 627
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Web_Filter.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=update_entry&table_name=website_filter_mode&rowid=0&website_filter_policy=list_deny&request=update_entry&table_name=website_filter&rowid=0&website=shabi.com&request=update_entry&table_name=website_filter&rowid=1&website=110.110.110.110&request=update_entry&table_name=website_filter&rowid=2&website=&request=update_entry&table_name=website_filter&rowid=3&website=&request=update_entry&table_name=website_filter&rowid=4&website=&request=update_entry&table_name=website_filter&rowid=5&website=&request=update_entry&table_name=website_filter&rowid=6&website=&request=update_entry&table_name=website_filter&rowid=7&website=

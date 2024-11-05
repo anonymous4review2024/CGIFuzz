@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.7700975473333895 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 740
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Wireless.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=update_entry&table_name=wireless_settings&rowid=0&enable_wireless=1&ssid=dlink-0000&channel=6&dot11_mode=11bgn&auto_channel=1&ssid_broadcast=1&channel_width=1&request=update_entry&table_name=wireless_schedule&rowid=0&wireless_schedule_name=Always&request=update_entry&table_name=wireless_security&rowid=0&security_mode=3&request=update_entry&table_name=wireless_wpa_settings&rowid=0&cipher_type=1&wpa_mode=2&radius1_ip=192.168.0.3&radius1_port=1812&radius1_secret=aaaaaaaaaaaaaaaaaaaaaaaa&radius2_ip=192.168.0.3&radius2_port=1812&radius2_secret=bbbbbbbbbbbbbbbbbbbbbbbb&request=update_entry&table_name=wifi_protected_setup&rowid=0&wps_enable=0&request=update_entry&table_name=wifi_protected_setup&rowid=0&wps_status=1&lock_wps_pin=1

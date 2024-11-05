@@ -1,0 +1,74 @@
+server.document-root = "/var/www/"
+
+server.port = 80
+#server.username = "root"
+#server.group = "root"
+
+#server.max-worker = 1
+
+server.modules   = ( "mod_rewrite",
+                     "mod_alias",
+                     "mod_access",
+                     "mod_setenv",
+                     "mod_cgi",
+                     "mod_fastcgi",
+                     "mod_status",
+                     "mod_accesslog",
+                     "mod_flv_streaming",
+                     "mod_secdownload",
+                     "mod_webdav",
+                    #"mod_compress",
+                     "mod_auth",
+                    #"mod_dirlisting"
+                   )
+
+setenv.add-response-header = ( "Content-Language" => "en" ,
+				"P3P" => "CP='CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR'")
+
+#dir-listing.activate = "enable"
+#server.errorlog-use-syslog  = "enable"
+
+include "/etc/lighttpd/mimetypes"
+
+secdownload.secret = "5dqjDUeo4"
+secdownload.document-root = "/mnt/"
+secdownload.uri-prefix = "/sdownload/"
+secdownload.timeout = 7200
+
+$SERVER["socket"] == ":80" {
+
+}
+
+$SERVER["socket"] == "[::]:80" {
+	server.use-ipv6 = "enable"
+}
+
+cgi.assign = (
+    "/account_mgr.cgi" => "/tmp/debug_wrapper.sh",
+    ".cgi" => ""
+   #".php" => "/usr/bin/php-cgi"
+             )
+
+
+flv-streaming.extensions = ( ".flv" )
+
+alias.url       += ( "/cgi-bin/" => "/var/www/cgi-bin/" )
+alias.url       += ( "/xml/" => "/var/www/xml/" )
+alias.url       += ( "/filesharing/" => "/tmp/filesharing/" )
+
+server.max-request-size = 4194303
+
+fastcgi.server = ( ".php" => ( "localhost" => ("host" => "127.0.0.1","port" => "5555" , "bin-path" => "/usr/bin/php-cgi" , "bin-environment" => ( "PHP_FCGI_CHILDREN" => "0" ) , "max-procs" => "1" ) ) )
+
+server.network-backend = "writev"
+
+server.upload-dirs = ("/var/tmp/")
+
+static-file.exclude-extensions = ( ".cgi" )
+index-file.names = ( "web/login.html","index.php" )
+
+$SERVER["socket"] == "192.168.1.201:443" {
+	ssl.engine = "enable"
+	ssl.pemfile = "/etc/certificate_https_all.pem"
+}
+

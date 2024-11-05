@@ -1,0 +1,16 @@
+POST /cgi-bin/app_mgr.cgi HTTP/1.1
+Host: 192.168.1.201
+Content-Length: 287
+Cache-Control: max-age=0
+Accept-Language: zh-CN
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.1.201
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.1.201/web/app_mgr/ftp_setting.html
+Accept-Encoding: gzip, deflate, br
+Cookie: username=admin
+Connection: keep-alive
+
+f_maxuser=10&f_idle_time=10&f_port=21&f_passive=55536%3A55663&f_start=55536&f_end=55663&f_client_char=GB2312&f_client_char_defult=GB2312&f_flow=1&f_flow_k=&f_fxp=0&cmd=FTP_Server_Set_Config&f_flow_value=0&f_forcepasvmod=0&f_external_ip=0.0.0.0&f_passive_port=55536%3A55663&f_tls_status=1

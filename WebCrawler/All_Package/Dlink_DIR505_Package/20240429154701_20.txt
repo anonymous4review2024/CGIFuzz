@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.3404521387017805 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 353
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Wizard_WLAN.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=update_entry&table_name=wireless_settings&rowid=0&ssid=dlink-0000&request=update_entry&table_name=wireless_security&rowid=0&security_mode=2&request=update_entry&table_name=wireless_wpa_settings&rowid=0&wpa_mode=3&cipher_type=0&pre_shared_key=aaaaaaaaaaaaaa&request=update_entry&table_name=wifi_protected_setup&rowid=0&wps_status=1&lock_wps_pin=1

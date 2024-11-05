@@ -1,0 +1,13 @@
+POST /my_cgi.cgi?0.4080107889053566 HTTP/1.1
+Host: 192.168.0.1
+Content-Length: 270
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.60 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.0.1
+Referer: http://192.168.0.1/Guest_Zone.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+request=update_entry&table_name=guest_zone&rowid=0&enable_zone=1&zone_schedule=Always&zone_ssid=dlink_guest&enable_routing_zone=0&request=update_entry&table_name=zone_security&rowid=0&zone_security_mode=1&zone_auth_type=auto&zone_wep_key_len=5&zone_wep64_key1=0000000000
