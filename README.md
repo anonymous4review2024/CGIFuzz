@@ -17,7 +17,8 @@ chmod a+x ./src/CGIFuzz/main.py
 ~~~
 
 ## Usage
+1. WebCrawler is our prototype code based on an LLM (Large Language Model) that captures data packets from different devices. It allows for device-specific modifications and runs to capture packets unique to each device. In the same directory, we have included data packets collected from several experimental programs.
 
+2. Upload the necessary files from the experiment directory to the testing device and execute them.
 
-
-
+3. Run the CGIFuzz program. Configuration files for different inputs can be found in the experiment directory. By default, the packets collected in step one are used as seeds for fuzz testing.
